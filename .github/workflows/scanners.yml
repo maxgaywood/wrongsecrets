@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: TruffleHog OSS
-        uses: trufflesecurity/trufflehog@main
+        uses: trufflesecurity/trufflehog@2caa45cf2210ad5660671fcd4c6a8eb6eb98a96b # main
         with:
           path: ./
           base: experiment-bed
